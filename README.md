@@ -1,9 +1,9 @@
 # IDAssignment1-PersonalPortfolioWebsite
 Isabelle's Personal Portfolio Website (ID Assignment 1)
 
-# Your Project's Name
+# Isabelle's Personal Website
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
+The website I am creating is my personal website, or an online resume for potential employers to get to know me more other than through my resume submitted during a job application.
 
 Essentially, this part is your sales pitch.
  
