@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="01-style.css" />
+
+    <title>Isabelle's Website</title>
+  </head>
+  <body>
+    <nav>
+      <img src="Isabelle's Picture.png" alt="Picture of Isabelle" />
+      <a href="01-home.html">Home</a>
+      <br />
+      <a href="02-about-me.html">About Me</a>
+      <br />
+      <a href="03-education.html">Education</a>
+      <br />
+      <a href="04-achievements.html">Achievements</a>
+      <br />
+      <a href="05-testimonials.html">Testimonials</a>
+      <br />
+      <a href="06-hobbies.html">Hobbies</a>
+      <br />
+      <a href="07-contact-me.html">Contact Me</a>
+    </nav>
+    <main>
+      <h1>Hi there, I am Isabelle Pak!</h1>
+      <p class="typing">I'm <span class="auto-input"></span></p>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script>
+        var typed = new Typed(".auto-input", {
+          strings: [
+            "a Student",
+            "an aspiring Software Developer",
+            "an amateur Pastry Chef",
+            "a budding Piano Performer",
+            "a Child of God",
+          ],
+          typeSpeed: 80,
+          backSpeed: 50,
+          loop: true,
+        });
+      </script>
+
+      <a href="07-contact-me.html" class="contact-me-page"
+        >Get in touch with me!</a
+      >
+
+      <p>Follow me on these platforms</p>
+      <a
+        class="social-icon"
+        id="instagram"
+        href="https://www.instagram.com/isabelle_pak/"
+        target="_blank"
+        ><ion-icon name="logo-instagram"> </ion-icon>
+      </a>
+      <a
+        class="social-icon"
+        id="facebook"
+        href="https://www.facebook.com/isabelle.pak.7"
+        target="_blank"
+        ><ion-icon name="logo-facebook"> </ion-icon>
+      </a>
+      <a
+        class="social-icon"
+        id="linkedin"
+        href="https://www.linkedin.com/in/isabelle-pak-a23068211/"
+        target="_blank"
+        ><ion-icon name="logo-linkedin"> </ion-icon>
+      </a>
+      <a
+        class="social-icon"
+        id="github"
+        href="https://github.com/isabellepakyishan"
+        target="_blank"
+        ><ion-icon name="logo-github"></ion-icon>
+      </a>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
