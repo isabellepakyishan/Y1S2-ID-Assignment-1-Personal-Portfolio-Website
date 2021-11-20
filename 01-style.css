@@ -32,6 +32,7 @@ nav img {
   display: block;
   margin-bottom: 35px;
   border-radius: 100%;
+  border: 3px solid #232946;
 }
 
 nav a {
@@ -45,6 +46,7 @@ nav a {
   border-color: #232946;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  font-family: "Mali", cursive;
 }
 
 nav a:hover {
@@ -64,7 +66,8 @@ nav a:hover {
 }
 
 main {
-  margin-top: 10%;
+  display: inline-block;
+  margin-top: 8%;
   margin-left: 250px;
   padding: 30px;
 }
@@ -79,15 +82,17 @@ main h1 {
   font-size: 30px;
 }
 
-a.contact-me-page {
+a.contact-me-page,
+a.view-resume {
   background-color: #eebbc3;
   color: #232946;
   padding: 10px 5px;
   border: 2px #232946 solid;
   text-decoration: none;
+  margin-right: 30px;
 }
 
-a.contact-me-page:hover {
+a.contact-me-page:hover a.view-resume:hover {
   background-color: #eebbc3;
   color: #232946;
 }
