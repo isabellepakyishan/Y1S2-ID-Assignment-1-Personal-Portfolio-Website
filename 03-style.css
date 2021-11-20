@@ -8,6 +8,7 @@ body {
   margin: 0;
   background-color: #232946;
   color: #fffffc;
+  border: 3px solid #232946;
 }
 
 nav {
@@ -32,6 +33,7 @@ nav img {
   display: block;
   margin-bottom: 35px;
   border-radius: 100%;
+  border: 3px solid #232946;
 }
 
 nav a {
@@ -45,6 +47,7 @@ nav a {
   border-color: #232946;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  font-family: "Mali", cursive;
 }
 
 nav a:hover {
