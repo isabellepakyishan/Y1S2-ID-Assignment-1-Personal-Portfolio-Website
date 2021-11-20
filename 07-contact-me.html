@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="07-style.css" />
-    <title>Document</title>
+    <title>CONTACT ME | Isabelle's Website</title>
   </head>
   <body>
     <nav>
-      <img src="Isabelle's Picture.png" alt="Picture of Isabelle" />
+      <img src="images/Isabelle's Picture.png" alt="Picture of Isabelle" />
       <a href="01-home.html">Home</a>
       <br />
       <a href="02-about-me.html">About Me</a>
@@ -26,30 +26,52 @@
     </nav>
 
     <div class="contact-me">
+      <div class="header">
+        <h1>Reach out to me through this form</h1>
+        <h3>and I'll get back to you as soon as possible!</h3>
+      </div>
+
       <form>
+        <div class="row">
+          <div class="input-group">
+            <input type="text" id="name" required />
+            <label for="user-name"
+              ><ion-icon name="person"></ion-icon> Name</label
+            >
+          </div>
+          <div class="input-group">
+            <input type="text" id="number" required />
+            <label for="user-number"
+              ><ion-icon name="call"></ion-icon> Contact Number</label
+            >
+          </div>
+        </div>
+
         <div class="input-group">
-          <input type="text" id="name" placeholder="Name" required />
-          <label for="user-name">Name</label>
+          <input type="email" id="email" required />
+          <label for="user-email"
+            ><ion-icon name="mail"></ion-icon> Email Address</label
+          >
         </div>
         <div class="input-group">
-          <input
-            type="text"
-            id="number"
-            placeholder="Contact Number"
-            required
-          />
-          <label for="user-number">Contact Number</label>
+          <textarea id="message" rows="8" required></textarea>
+          <label for="user-message"
+            ><ion-icon name="chatbubbles"></ion-icon> Message</label
+          >
         </div>
-        <div class="input-group">
-          <input type="email" id="email" placeholder="Email Address" required />
-          <label for="user-email">Email Address</label>
-        </div>
-        <div class="input-group">
-          <textarea id="message" rows="8" placeholder="Message"></textarea>
-          <label for="user-message">Message</label>
-        </div>
-        <button type="submit">Submit Form</button>
+        <button type="submit">
+          <ion-icon name="paper-plane"></ion-icon> Submit Form
+        </button>
       </form>
     </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
