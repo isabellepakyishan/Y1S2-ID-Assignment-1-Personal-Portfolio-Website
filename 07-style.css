@@ -48,6 +48,7 @@ nav a {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-family: "Mali", cursive;
+  transition: 0.3s;
 }
 
 nav a:hover {
