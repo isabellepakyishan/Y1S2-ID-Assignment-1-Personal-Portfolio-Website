@@ -38,73 +38,75 @@
       </nav>
     </div>
 
-    <img
-      class="home-img"
-      src="images/isabelle's-picture.png"
-      alt="Picture of Isabelle"
-    />
-    <main class="home">
-      <h1>Hi there, I am Isabelle Pak!</h1>
-      <p class="typing">I'm <span class="auto-input"></span></p>
-      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-      <script>
-        var typed = new Typed(".auto-input", {
-          strings: [
-            "a Student",
-            "an aspiring Software Developer",
-            "an amateur Pastry Chef",
-            "a budding Piano Performer",
-            "a Child of God",
-          ],
-          typeSpeed: 80,
-          backSpeed: 50,
-          loop: true,
-        });
-      </script>
-      <div style="display: flex; flex-direction: row">
-        <a href="07-contact-me.html" class="contact-me-page"
-          >Get in touch with me!</a
-        >
+    <article>
+      <img
+        class="home-img"
+        src="images/isabelle's-picture.png"
+        alt="Picture of Isabelle"
+      />
+      <main class="home">
+        <h1>Hi there, I am Isabelle Pak!</h1>
+        <p class="typing">I'm <span class="auto-input"></span></p>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+          var typed = new Typed(".auto-input", {
+            strings: [
+              "a Student",
+              "an aspiring Software Developer",
+              "an amateur Pastry Chef",
+              "a budding Piano Performer",
+              "a Child of God",
+            ],
+            typeSpeed: 80,
+            backSpeed: 50,
+            loop: true,
+          });
+        </script>
+        <div style="display: flex; flex-direction: row">
+          <a href="07-contact-me.html" class="contact-me-page"
+            >Get in touch with me!</a
+          >
+          <a
+            href="documents/Resume with O-levels Certificate.pdf"
+            class="view-resume"
+            target="_blank"
+            >View my Resume here!</a
+          >
+        </div>
+
+        <br />
+
+        <p class="follow-me">Follow me on these platforms</p>
         <a
-          href="documents/Resume with O-levels Certificate.pdf"
-          class="view-resume"
+          class="social-icon"
+          id="instagram"
+          href="https://www.instagram.com/isabelle_pak/"
           target="_blank"
-          >View my Resume here!</a
-        >
-      </div>
-
-      <br />
-
-      <p class="follow-me">Follow me on these platforms</p>
-      <a
-        class="social-icon"
-        id="instagram"
-        href="https://www.instagram.com/isabelle_pak/"
-        target="_blank"
-        ><ion-icon name="logo-instagram"> </ion-icon>
-      </a>
-      <a
-        class="social-icon"
-        id="facebook"
-        href="https://www.facebook.com/isabelle.pak.7"
-        target="_blank"
-        ><ion-icon name="logo-facebook"> </ion-icon>
-      </a>
-      <a
-        class="social-icon"
-        id="linkedin"
-        href="https://www.linkedin.com/in/isabelle-pak-a23068211/"
-        target="_blank"
-        ><ion-icon name="logo-linkedin"> </ion-icon>
-      </a>
-      <a
-        class="social-icon"
-        id="github"
-        href="https://github.com/isabellepakyishan"
-        target="_blank"
-        ><ion-icon name="logo-github"></ion-icon>
-      </a>
-    </main>
+          ><ion-icon name="logo-instagram"> </ion-icon>
+        </a>
+        <a
+          class="social-icon"
+          id="facebook"
+          href="https://www.facebook.com/isabelle.pak.7"
+          target="_blank"
+          ><ion-icon name="logo-facebook"> </ion-icon>
+        </a>
+        <a
+          class="social-icon"
+          id="linkedin"
+          href="https://www.linkedin.com/in/isabelle-pak-a23068211/"
+          target="_blank"
+          ><ion-icon name="logo-linkedin"> </ion-icon>
+        </a>
+        <a
+          class="social-icon"
+          id="github"
+          href="https://github.com/isabellepakyishan"
+          target="_blank"
+          ><ion-icon name="logo-github"></ion-icon>
+        </a>
+      </main>
+    </article>
 
     <script src="script.js"></script>
     <script
