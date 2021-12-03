@@ -507,11 +507,16 @@ h3.hobbies-description {
 .hobby {
   max-width: 95%;
   margin: 5px 8px;
+  display: flex;
+  justify-content: center;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1000px) {
   .hobbies-flex {
     flex-direction: column;
+    max-width: 95%;
+    margin: 8px 3px 5px 3px;
+    object-fit: fill;
   }
 }
 
