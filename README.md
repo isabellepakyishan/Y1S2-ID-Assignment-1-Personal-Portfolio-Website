@@ -59,19 +59,16 @@ I also made use of some tutorials online (modified to suit my website)
 
 ## Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Navigating through the Contact Form
 
 1. Contact form:
-   1. Go to the "Contact Us" page
+   1. Go to either the Home or Contact Me page
    2. Try to submit the empty form and verify that an error message about the required fields appears
-   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-   4. Try to submit the form with all inputs valid and verify that a success message appears.
+   3. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+For each of the pages, I ensured that the website adapts and is responsive to the change of size of the device from laptop to mobile. I also tested on 2 devices, an iPhone XS and an iPhone 12 Pro Max, all of which were of the right font sizing and image display.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+A bug which I had not managed to fix is the text box width and height as I had been focusing on doing up the other pages.
 
 ## Credits
 
