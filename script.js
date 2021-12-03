@@ -10,14 +10,14 @@ navToggle.addEventListener("click", () => {
   }
 });
 
-var btn = document.getElementsByClassName("btn");
-var slide = document.getElementById("slide");
-btn[0].onclick = function () {
-  slide.style.transform = "translateX(0px)";
-};
-btn[1].onclick = function () {
-  slide.style.transform = "translateX(-800px)";
-};
-btn[2].onclick = function () {
-  slide.style.transform = "translateX(-1600px)";
-};
+let form = document.getElementById("form");
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  let enquirerName = document.getElementById("name").value;
+  console.log(
+    `Thank you for your enquiry, ${enquirerName}. I will get back to you within 3 working days. Thank you!`
+  );
+
+  document.body.innerHTML = `Thank you for reaching out, ${enquirerName}. I will get back to you within 3 working days!`;
+});
